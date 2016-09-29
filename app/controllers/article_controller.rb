@@ -1,5 +1,8 @@
 class ArticleController < ApplicationController
 
+  def index
+
+  end
   def create
     Articles article = new Articles
     article.title = "titulo"
